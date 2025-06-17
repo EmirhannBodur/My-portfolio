@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fab fa-android"></i>
+                <span class="brand-text" data-tr="Portföy" data-en="Portfolio">Portföy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link" data-tr="Hakkımda" data-en="About">Hakkımda</a></li>
+                <li><a href="#projects" class="nav-link" data-tr="Projelerim" data-en="Projects">Projelerim</a></li>
+                <li><a href="#contact" class="nav-link" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="language-toggle" id="languageToggle">
+                    <span data-tr="EN" data-en="TR">EN</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting" data-tr="Merhaba, Ben" data-en="Hello, I'm">Merhaba, Ben</span>
+                    <span class="name">[Emirhan]</span>
+                </h1>
+                <p class="hero-subtitle" data-tr="Android Uygulama Geliştiricisi" data-en="Android App Developer">Android Uygulama Geliştiricisi</p>
+                <p class="hero-description" data-tr="Modern ve kullanıcı dostu Android uygulamaları geliştiriyorum. Kotlin ve Java ile güçlü, performanslı ve estetik uygulamalar yaratıyorum." data-en="I develop modern and user-friendly Android applications. Creating powerful, performant and aesthetic apps with Kotlin and Java.">Modern ve kullanıcı dostu Android uygulamaları geliştiriyorum. Kotlin ve Java ile güçlü, performanslı ve estetik uygulamalar yaratıyorum.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-tr="Projelerimi Gör" data-en="View My Projects">Projelerimi Gör</a>
+                    <a href="#contact" class="btn btn-secondary" data-tr="İletişime Geç" data-en="Get In Touch">İletişime Geç</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="android-phone">
+                    <div class="phone-screen">
+                        <div class="app-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-tr="Hakkımda" data-en="About Me">Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- Hakkımda içeriği buraya gelecek -->
+                    <p data-tr="Mobil uygulama geliştirme alanında kariyerime yeni adımlar atan bir 
+                    yazılım geliştiriciyim. Kotlin ve Android Studio ile temel düzeyde 
+                    uygulamalar geliştirdim ve Firebase gibi modern teknolojilerle çalıştım. 
+                    Yazılım dünyasındaki hızlı değişime ayak uydurmak için sürekli öğrenme 
+                    ve kendimi geliştirme çabası içerisindeyim. Geliştirdiğim projelerde, 
+                    kullanıcı deneyimini ön planda tutarak ve ekip çalışmasına açık bir 
+                    şekilde ilerlemeye özen gösteriyorum. Özellikle, kullanıcı odaklı ve 
+                    fonksiyonel uygulamalar geliştirme konusunda kendimi daha da ileriye 
+                    taşımayı hedefliyorum." data-en="I am a software developer who has taken new steps in my career in mobile application development. I have developed basic level applications with Kotlin and Android Studio and worked with modern technologies such as Firebase. I am constantly learning and improving myself to keep up with the rapid change in the software world. In the projects I develop, I take care to progress by prioritizing the user experience and being open to teamwork. In particular, I aim to take myself even further in developing user-oriented and functional applications."></p>
+                </div>
+                <div class="skills">
+                    <h3 data-tr="Yeteneklerim" data-en="My Skills">Yeteneklerim</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Android SDK</span>
+                        <span class="skill-tag">Jetpack Compose</span>
+                        <span class="skill-tag">MVVM</span>
+                        <span class="skill-tag">Room Database</span>
+                        <span class="skill-tag">Retrofit</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Material Design</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-tr="Projelerim" data-en="My Projects">Projelerim</h2>
+            <div class="projects-grid">
+                <!-- Proje kartları buraya gelecek -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-tr="Hava durumu Uygulaması" data-en="Weather App">Proje Adı</h3>
+                        <p data-tr="Bu proje, Kotlin dili ve XML kullanılarak Android Studio ortamında geliştirilen bir hava durumu uygulamasıdır. Uygulama, MVVM (Model-View-ViewModel) mimarisine uygun olarak yapılandırılmıştır. Kullanıcı, konum bazlı veya şehir ismi girerek hava durumu bilgilerine ulaşabilmektedir.
+
+                        Uygulama, hava durumu verilerini almak için bir açık hava durumu API’si  OpenWeatherMap ile entegre edilmiştir. Kullanıcıya günlük sıcaklık, nem, rüzgar hızı gibi temel meteorolojik bilgiler gösterilmektedir.
+                        Retrofit kütüphanesiyle API istekleri yönetilmiş; veriler ViewModel ve LiveData ile kullanıcı arayüzüne taşınmıştır. XML ile responsive ve sade bir arayüz tasarlanmıştır." data-en="This project is a weather application developed using Kotlin and XML in the Android Studio environment. It is built based on the MVVM (Model-View-ViewModel) architecture. Users can view weather information based on either their current location or by entering a city name.
+
+                        The app is integrated with a public weather API OpenWeatherMap to fetch real-time weather data. It displays essential meteorological information such as temperature, humidity, and wind speed.
+                        Retrofit is used for API communication, and LiveData and ViewModel are used to pass the data to the user interface. The layout is designed using XML with a clean and responsive interface.">Proje açıklaması buraya gelecek...</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Android Studio</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/EmirhannBodur/WeatherApp" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-tr="İletişim" data-en="Contact">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-tr="Benimle İletişime Geçin" data-en="Get In Touch">Benimle İletişime Geçin</h3>
+                    <p data-tr="Projeleriniz için benimle iletişime geçebilirsiniz." data-en="Feel free to contact me for your projects.">Projeleriniz için benimle iletişime geçebilirsiniz.</p>
+                    <div class="contact-links">
+                        <a href="mailto:emirhanbodur742@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>emirhanbodur742@gmail.com</span>
+                        </a>
+                        <a href="tel:+905537745962" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 553 774 59 62</span>
+                        </a>
+                        <a href="https://github.com/EmirhannBodur" target="_blank" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/EmirhannBodur</span>
+                        </a>
+                        <a href="https://linkedin.com/in/emirhan-bodur" target="_blank" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/emirhan-bodur</span>
+                        </a>
+                        <a href="https://instagram.com/_emirhan.bodur" target="_blank" class="contact-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>instagram.com/_emirhan.bodur</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
